@@ -23,6 +23,7 @@ int main()
     // cout<<"b: "<<b;
 
     // get nth bit in binary number
+    //  0011
     // int a=3;
     // int b = 1;
     // b = b << 2;
@@ -54,25 +55,25 @@ int main()
     // 1010
     // 1111
     // 0101
-    int a = 10;
-    int b = 15;
-    int c = a ^ b;
-    int counter = 0;
-    while (c > 0)
-    {
-        if (c & 1)
-        {
-            c = c >> 1;
-            counter++;
-        }
-        else
-        {
-            c = c >> 1;
-        }
-        //optimized way
-        // c = c & (c-1);
-        // counter++;
-    }
-    cout << "counter: " << counter;
-    return 0;
+    // int a = 10;
+    // int b = 15;
+    // int c = a ^ b;
+    // int counter = 0;
+    // while (c > 0)
+    // {
+    //     if (c & 1)
+    //     {
+    //         c = c >> 1;
+    //         counter++;
+    //     }
+    //     else
+    //     {
+    //         c = c >> 1;
+    //     }
+    //     //optimized way
+    //     // c = c & (c-1);
+    //     // counter++;
+    // }
+    // cout << "counter: " << counter;
+    // return 0;
 }
