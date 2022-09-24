@@ -1,0 +1,1 @@
+{"name":"Local: RecordBreakingDays","url":"c:\\Users\\sidp9\\Desktop\\C++\\RecordBreakingDays.cpp","tests":[{"id":1663700628641,"input":"8\n3 2 0 7 2 0 11 10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sidp9\\Desktop\\C++\\RecordBreakingDays.cpp","group":"local","local":true}
